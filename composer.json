@@ -15,8 +15,8 @@
         }
     },
     "require": {
-        "oro/crm": "3.2.x-dev",
-        "oro/commerce": "3.2.x-dev"
+        "oro/crm": "dev-releaseTests",
+        "oro/commerce": "dev-releaseTests"
     },
     "repositories": {
         "oro": {

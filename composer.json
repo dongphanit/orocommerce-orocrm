@@ -16,18 +16,32 @@
     },
     "require": {
         "oro/crm": "4.1.*",
-        "oro/commerce": "4.1.*"
+        "dongphanit/orocommerce":"4.1.*"
     },
-    "repositories": {
-        "oro": {
-            "type": "composer",
-            "url": "https://packagist.orocrm.com"
-        },
-        "asset-packagist": {
+    
+    "repositories": [
+     {
+      "type": "composer",
+      "url": "https://packagist.orocrm.com"
+    },
+     "asset-packagist": {
             "type": "composer",
             "url": "https://asset-packagist.orocrm.com"
         }
-    },
+    {       
+        "type":"package",
+        "package": {
+          "name": "dongphanit/orocommerce",
+          "version":"4.1-rc",
+          "source": {
+              "url": "https://github.com/dongphanit/orocommerce.git",
+              "type": "git",
+              "reference":"4.1-rc"
+            }
+        }
+    }
+
+  ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
